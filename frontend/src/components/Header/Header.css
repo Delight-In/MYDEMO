@@ -1,0 +1,36 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #282c34;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-header nav button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.app-header nav button:hover {
+  background: white;
+  color: #282c34;
+}
+
+.logout-btn {
+  background: #ff6b6b !important;
+  border: 1px solid #ff6b6b !important;
+}
+
+.logout-btn:hover {
+  background: #ff5252 !important;
+  border-color: #ff5252 !important;
+  color: white !important;
+}
